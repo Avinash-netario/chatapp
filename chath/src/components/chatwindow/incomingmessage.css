@@ -1,0 +1,38 @@
+.incoming-message {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 0;
+  }
+  
+  .message-content{
+    max-width: 70%;
+  }
+  .message-content.incoming{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .message-info {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .message-content.incoming .message-info .contents{
+    border-radius: 10px;
+    padding: 10px;
+    color: #2F2F2F;
+    background-color: #f1f0f0;
+  } 
+  .timestamp {
+    font-size: 12px;
+    color: gray;
+    display: block;
+    text-align: right;
+    /* margin-top: 10px; */
+  }
+  .msg-more-icon{
+    font-size: 20px;
+    color: #2F2F2F;
+    cursor: pointer;
+  }
+  

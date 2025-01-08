@@ -1,0 +1,9 @@
+.chatapp{
+    display: flex;
+    /* padding-right: 10px; */
+}
+@media (max-width: 650px){
+ .chatapp{
+    position: relative;
+ }
+}

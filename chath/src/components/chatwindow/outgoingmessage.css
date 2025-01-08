@@ -1,0 +1,33 @@
+.outgoing-message {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0;
+  }
+  
+  .message-content {
+    max-width: 70%;
+  }
+  .message-content.outgoing{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .message-info {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .message-content.outgoing .message-info .contents{
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    background-color: #646AFD;
+  }
+  .timestamp {
+    font-size: 12px;
+    color: lightgray;
+    display: block;
+    text-align: right;
+    /* margin-top: 10px; */
+  }
+  
